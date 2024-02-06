@@ -1,0 +1,344 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* heading start */
+#hkop
+{
+    background-color:  #F2632E;
+}
+#color
+{
+    padding-bottom: 30px;
+}
+.flex
+{
+    gap:10px;
+}
+#button
+{
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    fill: #F2632E;
+    color: #F2632E;
+    background-color: #FFFFFF;
+    padding: 1.125rem 3.125rem 1.125rem 3.125rem;
+    border-color: #F2632E;
+}
+@media   (max-width:768px )
+{
+    #color
+    {
+         text-align: center;
+         margin-right: 0px;
+    }
+    #cpp
+    {
+    margin-top: 1rem !important;
+    }
+    #button
+    {
+        padding: 12px 35px 12px 35px; 
+    }
+    #vp
+    {
+        margin-top: 1rem !important;
+    }
+}
+@media (max-width:320px)
+{ 
+    #button
+    {
+        padding: 8px 25px 8px 25px; 
+    }
+}
+/* heading end */
+
+/* nav start */
+nav
+{
+    background-color: black;
+}
+#tex
+{
+    font-family: "Raleway", Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+#fad
+{   height: 5rem;
+    text-align: center !important;
+    align-items:center !important;
+    justify-content:center !important;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* nav end */
+/* background start */
+#back
+{
+    background-image: url('./kaboomconcretepumping-slider-02-orange-new.jpg');
+    position: relative;
+    background-size: 100%;
+    height: 55vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width:768px)
+{
+    #back
+    {
+        background-size:cover;
+        background-position: 89% 100%;
+        width: 100%;
+    }
+}
+@media (max-width:320px)
+{ 
+    #back
+    {
+        background-size:cover;
+        background-position: 89% 100%;
+        width: 100%;
+    }
+}
+/* background end */
+
+/* heading 1 start */
+#head
+{
+    font-size: 40px;
+    color: #1f1f1f!important;
+    line-height: 1.2em;
+    text-align: center;
+}
+#mar
+{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.textt
+{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #777777;
+    text-align: center;
+}
+#inl
+{
+    color:#2ea3f2;
+    line-height: 1em;
+    font-weight:900 !important;
+    font-style: normal;
+}
+#symb
+{
+    color: #F2632E;
+    text-align: center;
+    font-size: 2rem;
+}
+@media (max-width:768px)
+{
+    #symb
+    {
+       font-size: 1.5rem;
+    } 
+}
+@media (max-width:320px)
+{
+    #symb
+    {
+       font-size: 1rem;
+    }
+}
+/* heading 1 end */
+
+/* card section start */
+#cool
+{
+    height:auto;
+    
+}
+#ab
+{
+    width: 100%;
+    height: 15rem;
+}
+#def
+{
+    color: #F2632E;
+   word-spacing: 7px;
+   letter-spacing: 3px;
+   font-weight: 400;
+}
+#pqr
+{
+    color: #777777;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.co
+{
+    background-color: #f1f1f1bd;
+    margin-top: -2rem;
+    position: relative;
+}
+#def
+{
+    text-align: center;
+}
+/* card section end */
+
+/* background section start */
+.background
+{
+    background-image: url('https://www.kaboomconcretepumping.com.au/wp-content/uploads/2019/10/Resized_received_347307726218759.jpg');
+    position: relative;
+    height:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#work
+{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 40px;
+    color: white;
+    line-height: 1.2em;
+    text-align: center;
+}
+#det
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#klm
+{
+    width: 70%;
+    height: 10rem;
+}
+@media (max-width:768px)
+{
+   #klm
+   {
+      width: 100%;
+   }
+}
+/* background section end */
+
+/* image section start */
+#op
+{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    width: 100%;
+    height: 80%;
+}
+#po
+{
+    border-radius: 1rem;
+    width: 100%;
+    height: 80%;
+}
+#gp
+{   display: flex;
+    gap: 2.5rem !important;
+}
+#sql
+{
+    color: #F2632E;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+#pql
+{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: #777777;
+}
+#apl
+{
+    color:#2ea3f2;
+    font-style: normal; 
+    font-weight: 800;
+}
+@media (max-width:768px)
+{
+   .gp2
+   {
+    margin-top: 5rem;;
+   }
+}
+/* image section end */
+
+/* heading 5 start */
+#pqll
+{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #777777;
+    font-weight: 400;
+    line-height: 1.8em;
+    font-size: 16px;
+    line-height: 1.8em;
+    text-align: center;
+}
+/* heading 5 end */
+/* heading 6 start */
+#mnb
+{
+    width: 100%;
+}
+#apl
+{
+    color:#2ea3f2;
+    font-style: normal; 
+    font-weight: 800;
+}
+/* heading 6 end */
+/* footer start */
+#fl
+{
+    display: flex;
+    gap:1.5rem;
+}
+#ccc
+{ 
+       border-right: 1px solid white;
+}
+#foot
+{
+    background-color: black;  
+}
+#last
+{
+    align-items: center;
+    text-align: center;
+}
+@media (max-width:768px)
+{
+    #ojl
+    {
+        margin-top: .5rem;
+    }
+    #ccc
+    {
+        border-right: 0;
+    }
+}
+@media (max-width:320px)
+{ 
+    #lock
+    {
+        font-size:smaller;
+    }
+}
+/* footer end */
